@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 
-from selenium import webdriver
+import selenium
 from selenium.webdriver.common.keys import Keys
 
-driver=webdriver.PhantomJS()
+driver=ellenium.webdriver.PhantomJS()
 
 #获取网址
 driver.get("https://www.douban.com/accounts/login")
